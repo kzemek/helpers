@@ -9,7 +9,8 @@
 #ifndef HELPERS_STORAGE_HELPER_FACTORY_H
 #define HELPERS_STORAGE_HELPER_FACTORY_H
 
-#include "storageHelper.h"
+#include "helpers/config.h"
+#include "helpers/storageHelper.h"
 
 #ifdef BUILD_PROXY_IO
 #include "communication/communicator.h"

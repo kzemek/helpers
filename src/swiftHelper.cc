@@ -13,13 +13,12 @@
 #include <folly/FBVector.h>
 #include <folly/Range.h>
 #include <glog/stl_logging.h>
+#include <boost/version.hpp>
 
-#if defined(__APPLE__)
 #undef BOOST_BIND_NO_PLACEHOLDERS
-#endif
-
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/property_tree/ptree.hpp>
+#define BOOST_BIND_NO_PLACEHOLDERS
 
 namespace std {
 template <> struct hash<Poco::Net::HTTPResponse::HTTPStatus> {

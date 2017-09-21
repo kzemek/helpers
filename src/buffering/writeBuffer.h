@@ -13,6 +13,7 @@
 
 #include "communication/communicator.h"
 #include "helpers/storageHelper.h"
+#include "helpers/config.h"
 #include "messages/proxyio/remoteWrite.h"
 #include "messages/proxyio/remoteWriteResult.h"
 #include "scheduler.h"

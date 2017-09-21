@@ -11,6 +11,7 @@
 
 #include "communication/communicator.h"
 #include "helpers/storageHelper.h"
+#include "helpers/config.h"
 #include "messages/proxyio/remoteData.h"
 #include "messages/proxyio/remoteRead.h"
 #include "scheduler.h"
